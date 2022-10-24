@@ -1,7 +1,11 @@
-#logo {
-  background-color: blue;  
+header {
+  background-color: rgb(12, 92, 172);
   background-image: url('../img/pattern.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-size: 35%;
+  height: 100px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:0.1%;
+  margin-bottom: auto   ;
   }
+

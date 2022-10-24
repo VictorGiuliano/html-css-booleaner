@@ -8,4 +8,25 @@ header {
   margin-top:0.1%;
   margin-bottom: auto   ;
   }
+  .rettangolo {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:0.1%;
+  }
+  .grey {
+    color: grey;
+    font-size: 16px;
+
+  }
+  .blue{
+    color: rgb(33, 139, 231);
+    font-size: 16px;
+  }
+  #data{
+    color: grey;
+    font-size: 10px;
+  }
+  #foto{
+    width: 200px;
+  }
 

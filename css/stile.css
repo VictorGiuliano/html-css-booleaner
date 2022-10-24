@@ -29,4 +29,14 @@ header {
   #foto{
     width: 200px;
   }
+  #didascalia{
+    font-size: 10px;
+    margin-top:0.1%;
+  }
+  .paragrafo{
+    margin-top: 15%;
+  }
+  .evidenziatore{
+    background-color: #FFFF00;
+  }
 

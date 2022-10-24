@@ -17,15 +17,16 @@ header {
 
   }
   .rettangolo {
-  margin-top:0.1%;
-  height: 80px;
+  margin:0.1%;
+  padding:0%;
+  height: 150px;
   margin-bottom: auto;
   }
   .grey {
     color: grey;
-    font-size: 16px;
-
-  }
+    font-size: 20px;
+    margin-bottom: auto;
+}      
   .blue{
     color: rgb(33, 139, 231);
     font-size: 16px;
@@ -53,8 +54,59 @@ header {
   .evidenziatore{
     background-color: #FFFF00;
   }
-  #tab {
-    font-family: Arial, Helvetica, sans-serif;
+  #punto{
+    margin:15px;
+    padding:0px;
+  }
+  #tab{
     border-collapse: collapse;
     width: 100%;
+  }
+  #tab th{
+    padding-top: 8px;
+    text-align: left;
+    background-color: #00b3ff;
+    color: white;
+  }
+   .pari{
+    padding: 10px;
+    margin:4px;
+    text-align: left;
+    background-color: #dce3e3;
+    color: black;
+  } 
+  .dispari{
+    padding: 10px;
+    margin:4px;
+    text-align: left;
+    background-color: #6ac7da;
+    color: black;
+  }
+  #diversa{
+    background-color: rgb(37, 152, 83);
+    padding: 3px;
+    text-align: left;
+    color: white;
+  }
+  #riquadro{
+  margin:0.1%;
+  padding:0%;
+  height: 70px;
+  margin-bottom: auto;
+  }
+
+  .quarto > td{
+max-width: 10%;
+  }
+  .meta > td{
+max-width: 20%;
+  }
+
+  .contenitore{
+  position:relative;
+  }
+  .centered{
+    position:absolute;
+    left:10%;
+    transform: translate(0%,-10%);
   }

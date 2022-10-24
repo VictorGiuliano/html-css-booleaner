@@ -1,17 +1,25 @@
+html{
+margin-left: 15%;
+margin-right: 15%;
+}
 header {
   background-color: rgb(12, 92, 172);
   background-image: url('../img/pattern.png');
   background-size: 35%;
   height: 100px;
-  margin-left: 15%;
-  margin-right: 15%;
   margin-top:0.1%;
-  margin-bottom: auto   ;
+  margin-bottom: auto;
+  }
+  #pic{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+
   }
   .rettangolo {
-  margin-left: 15%;
-  margin-right: 15%;
   margin-top:0.1%;
+  height: 80px;
+  margin-bottom: auto;
   }
   .grey {
     color: grey;
@@ -26,17 +34,27 @@ header {
     color: grey;
     font-size: 10px;
   }
-  #foto{
-    width: 200px;
+  .foto{
+    width:100%;
+  }
+  #gallery{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
   }
   #didascalia{
     font-size: 10px;
-    margin-top:0.1%;
+    margin:0px;
+    padding:0px;
   }
-  .paragrafo{
-    margin-top: 15%;
+  #paragrafo{
+    margin-top: 20px;
   }
   .evidenziatore{
     background-color: #FFFF00;
   }
-
+  #tab {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }

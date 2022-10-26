@@ -74,7 +74,7 @@ header {
   }
   #punto{
     margin:15px;
-    padding:0px;
+    padding-inline-start:0px;
   }
   #tab{
     border-collapse: collapse;
@@ -90,7 +90,7 @@ header {
     padding: 10px;
     margin:4px;
     text-align: left;
-    background-color: #dce3e3;
+    background-color: white;
     color: black;
   } 
   .dispari{
@@ -113,18 +113,10 @@ header {
   margin-bottom: auto;
   }
 
-  .quarto > td{
-max-width: 10%;
+  .w50{
+    width: 50%;
   }
-  .meta > td{
-max-width: 20%;
-  }
+  
+/* 
 
-  .contenitore{
-  position:relative;
-  }
-  .centered{
-    position:absolute;
-    left:10%;
-    transform: translate(0%,-10%);
-  }
+  }*/

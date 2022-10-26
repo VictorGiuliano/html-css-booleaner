@@ -2,6 +2,24 @@ html{
 margin-left: 15%;
 margin-right: 15%;
 }
+h1{
+  font-size: 31px;
+  margin-bottom: 0;
+}
+address{
+  font-style: normal;
+  font-size: 18px;
+}
+.text_grey{
+  color: lightgray;
+}
+a{
+  color: #6ac7da;
+  text-decoration:none;
+}
+.testo{
+  font-size: 12px;
+}
 header {
   background-color: rgb(12, 92, 172);
   background-image: url('../img/pattern.png');
@@ -11,7 +29,7 @@ header {
   margin-bottom: auto;
   }
   #pic{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 10px;
     width: 200px;
 
@@ -19,7 +37,7 @@ header {
   .rettangolo {
   margin:0.1%;
   padding:0%;
-  height: 150px;
+  height: 120px;
   margin-bottom: auto;
   }
   .grey {
@@ -43,7 +61,7 @@ header {
     height: 300px;
     object-fit: cover;
   }
-  #didascalia{
+  .didascalia{
     font-size: 10px;
     margin:0px;
     padding:0px;
